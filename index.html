@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobs Tracker</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="bg-white border-b border-gray-200 top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-black">Job Tracker Application</h1>
+    </div>
+  </nav>
+
+  <main class="max-w-7xl mx-auto px-6 py-10">
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <div class="bg-white p-6 rounded-2xl shadow-sm border border-black-100">
+        <p class="text-black-500 font-medium mb-1">Total</p>
+        <h2 id="totalCount" class="text-4xl font-bold">8</h2>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-sm border border-black-100">
+        <p class="text-green-500 font-medium mb-1">Interview</p>
+        <h2 id="interviewStats" class="text-4xl font-bold">0</h2>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-sm border border-black-100">
+        <p class="text-rose-600 font-medium mb-1">Rejected</p>
+        <h2 id="rejectedStats" class="text-4xl font-bold">0</h2>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

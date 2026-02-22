@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 
-<body>
+<body class="bg-gray-50 font-sans text-gray-900">
   <nav class="bg-white border-b border-gray-200 top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
       <h1 class="text-2xl font-black">Job Tracker Application</h1>
@@ -31,6 +31,13 @@
         <h2 id="rejectedStats" class="text-4xl font-bold">0</h2>
       </div>
     </section>
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-4">
+      <h2 class="text-2xl font-bold text-gray-800">Available Jobs</h2>
+      <div class="bg-white px-4 py-2 rounded-lg border border-gray-200 shadow-sm">
+        <span class="text-gray-400 font-bold uppercase text-xs">Jobs:</span>
+        <span id="tabCount" class="ml-2 font-bold text-black-600">0</span>
+      </div>
+    </div>
   </main>
 </body>
 

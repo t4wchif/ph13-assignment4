@@ -7,6 +7,7 @@
   <title>Jobs Tracker</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <script defer src="script.js"></script>
 </head>
 
 <body class="bg-gray-50 font-sans text-gray-900">
@@ -37,6 +38,20 @@
         <span class="text-gray-400 font-bold uppercase text-xs">Jobs:</span>
         <span id="tabCount" class="ml-2 font-bold text-black-600">0</span>
       </div>
+    </div>
+    <div class="flex gap-8 border-b border-gray-200 mb-8">
+      <button data-tab="all" id="btn-all"
+        class="tab-btn pb-4 font-bold text-black-400 hover:text-gray-600 transition-all active-tab">
+        All
+      </button>
+      <button data-tab="interview" id="btn-interview"
+        class="tab-btn pb-4 font-bold text-black-400 hover:text-gray-600 transition-all">
+        Interview
+      </button>
+      <button data-tab="rejected" id="btn-rejected"
+        class="tab-btn pb-4 font-bold text-black-400 hover:text-gray-600 transition-all">
+        Rejected
+      </button>
     </div>
   </main>
 </body>

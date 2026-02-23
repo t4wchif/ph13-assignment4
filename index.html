@@ -7,6 +7,12 @@
   <title>Jobs Tracker</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <style>
+    .active-tab {
+      border-bottom: 3px solid #3b82f6;
+      color: #3b82f6;
+    }
+  </style>
   <script defer src="script.js"></script>
 </head>
 
@@ -28,7 +34,7 @@
         <h2 id="interviewStats" class="text-4xl font-bold">0</h2>
       </div>
       <div class="bg-white p-6 rounded-2xl shadow-sm border border-black-100">
-        <p class="text-rose-600 font-medium mb-1">Rejected</p>
+        <p class="text-red-600 font-medium mb-1">Rejected</p>
         <h2 id="rejectedStats" class="text-4xl font-bold">0</h2>
       </div>
     </section>
@@ -52,6 +58,16 @@
         class="tab-btn pb-4 font-bold text-black-400 hover:text-gray-600 transition-all">
         Rejected
       </button>
+    </div>
+    <div id="jobWrapper" class="grid grid-cols-1 gap-6"></div>
+    <div id="emptyPlaceholder" class="hidden">
+      <div class="col-span-full py-20 flex flex-col items-center justify-center text-center">
+        <div class="bg-gray-100 p-6 rounded-full mb-6">
+          <img src="jobs.png" alt="No Job" class="w-24 h-24 object-contain">
+        </div>
+        <h3 class="text-xl font-bold text-gray-700">No Jobs Available</h3>
+        <p class="text-gray-400 mt-2">Check back soon for new job opportunities.</p>
+      </div>
     </div>
   </main>
 </body>

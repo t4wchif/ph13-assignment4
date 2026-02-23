@@ -161,5 +161,36 @@ function updateStatus(id, newStatus) {
   });
   renderTracker();
 }
+function deleteJob(id) {
+  jobs = jobs.filter(job => job.id !== id);
+  renderTracker();
+}
+function switchTab(tab) {
+  activeTab = tab;
+  document
+    .querySelectorAll('.tab-btn')
+    .forEach(btn => btn.classList.remove('active-tab'));
+  document.getElementById(`btn-${tab}`).classList.add('active-tab');
+  renderTracker();
+}
+document.addEventListener('click', e => {
+  const target = e.target.closest('button');
+
+  if (!target) return;
+
+  if (target.classList.contains('tab-btn')) {
+    const tab = target.dataset.tab;
+    if (tab) switchTab(tab);
+  }
+  if (target.classList.contains('status-btn')) {
+    const id = Number(target.dataset.id);
+    const status = target.dataset.status;
+    updateStatus(id, status);
+  }
+  if (target.classList.contains('delete-btn')) {
+    const id = Number(target.dataset.id);
+    deleteJob(id);
+  }
+});
 
 renderTracker();

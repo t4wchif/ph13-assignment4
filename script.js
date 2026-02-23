@@ -151,3 +151,14 @@ function renderTracker() {
     });
   }
 }
+function updateStatus(id, newStatus) {
+  jobs = jobs.map(job => {
+    if (job.id === id) {
+      const updatedStatus = job.status === newStatus ? 'all' : newStatus;
+      return { ...job, status: updatedStatus };
+    }
+    return job;
+  });
+  renderTracker();
+}
+renderTracker();

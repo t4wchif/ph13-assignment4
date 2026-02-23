@@ -161,4 +161,5 @@ function updateStatus(id, newStatus) {
   });
   renderTracker();
 }
+
 renderTracker();

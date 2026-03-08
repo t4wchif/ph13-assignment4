@@ -1,26 +1,33 @@
-# 🚀 JavaScript DOM Mastery & Event Logic  
+# 💼 Jobs Tracker Application  
 
-A hands-on project focused on dynamic web manipulation and advanced event handling using JavaScript.  
-
-### 🌟 Key Learnings & Implementations  
-
-- **DOM Selection:** Efficiently using `getElementById` for speed and `querySelector/All` for flexible CSS-based selection.  
-- **Dynamic Elements:** Creating tags with `createElement` and injecting content via `appendChild`.  
-- **Event Management:** Mastering **Event Bubbling** and **Delegation** to manage dynamic content efficiently.  
-- **Event Control:** Using `preventDefault()` to stop browser defaults and `stopPropagation()` to control event flow.  
+An interactive web interface designed to showcase efficient data management and dynamic filtering logic for job applications.  
 
 ---
+
+### 🌟 Project Overview  
+This project demonstrates the core concepts of **Vanilla JavaScript** in managing and displaying application data. It provides a clean, user-friendly dashboard where users can explore job tracking concepts and see how logic-driven interfaces work.  
 
 ### 🛠️ Tech Stack  
-- **Language:** JavaScript (ES6+)  
-- **Styling:** Tailwind CSS / CSS3  
+- **Language:** JavaScript (Vanilla ES6+)  
+- **Styling:** Tailwind CSS (Modern Utility-first CSS)  
 - **Structure:** HTML5  
+
+### 📂 Key Features  
+- **Advanced Data Filtering:** Implemented custom logic to filter through job data efficiently.  
+- **Dynamic DOM Manipulation:** Real-time UI updates based on user interaction.  
+- **Responsive Layout:** A fully mobile-responsive design built with Tailwind CSS.  
+- **Clean Architecture:** Modular JavaScript code for better maintainability and logic flow.  
 
 ---
 
-### 📂 Project Features  
-- **Interactive UI:** Real-time DOM updates based on user actions.  
-- **Efficient Logic:** Using Event Delegation for better performance.  
-- **Responsive Design:** Optimized for all screen sizes.  
+### 🚀 Challenges Overcome  
+The biggest challenge was implementing **Real-time Data Filtering**. Managing the DOM to reflect specific search or filter criteria while maintaining performance helped me deepen my understanding of JavaScript's event loop and array methods.  
 
+---
+
+### 🔗 Quick Links  
+- **Live Demo:** [View Live Site](https://t4wchif.github.io)  
+- **Source Code:** [GitHub Repository](https://github.com/t4wchif/ph13-assignment4)  
+
+---
 **Developed by Tawchif** | *Aspiring Software Engineer*  

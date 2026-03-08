@@ -26,8 +26,8 @@ The biggest challenge was implementing **Real-time Data Filtering**. Managing th
 ---
 
 ### 🔗 Quick Links  
-- **Live Demo:** [View Live Site](https://t4wchif.github.io)  
-- **Source Code:** [GitHub Repository](https://github.com/t4wchif/ph13-assignment4)  
+- **Live Demo:** https://t4wchif.github.io/ph13-assignment4/
+- **Source Code:** https://github.com/t4wchif/ph13-assignment4
 
 ---
 **Developed by Tawchif** | *Aspiring Software Engineer*  
